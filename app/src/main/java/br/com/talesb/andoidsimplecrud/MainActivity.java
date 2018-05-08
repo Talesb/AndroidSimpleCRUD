@@ -29,6 +29,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void find(View view) {
+        Intent it = new Intent(getApplicationContext(),ListActivity.class);
+        startActivityForResult(it,1);
     }
 
     public void quit(View view) {
