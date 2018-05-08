@@ -24,6 +24,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void delete(View view) {
+        Intent it = new Intent(getApplicationContext(),DialogActivity2.class);
+        startActivityForResult(it,1);
     }
 
     public void find(View view) {
