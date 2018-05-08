@@ -10,7 +10,7 @@ import android.widget.Toast;
 import constant.UsersConstant;
 import model.User;
 
-public class CreateActivty extends AppCompatActivity {
+public class CreateActivity extends AppCompatActivity {
 
     EditText edtname ;
     EditText edtemail ;

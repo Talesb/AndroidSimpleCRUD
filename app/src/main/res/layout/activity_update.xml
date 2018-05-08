@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".UpdateActivity"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        >
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:textSize="23dp"
+            android:textAlignment="center"
+            android:text="Update User"/>
+
+
+
+        <EditText
+            android:layout_marginTop="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=""
+            android:inputType="text"
+            android:id="@+id/edtnameup2"
+            />
+
+        <EditText
+            android:layout_marginTop="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtemailup"
+            android:inputType="text"
+            android:hint=""/>
+
+        <EditText
+            android:layout_marginTop="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtcpfup"
+            android:inputType="text"
+            android:hint=""/>
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_width="80dp"
+            android:layout_gravity="center"
+            android:layout_height="70dp"
+            android:background="@drawable/ic_check_box_black_24dp"
+            android:onClick="save"
+            android:id="@+id/btnup"/>
+    </LinearLayout>
+
+</ScrollView>
